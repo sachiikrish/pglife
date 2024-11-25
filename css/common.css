@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif , 'open-sans';
+}
+body {
+    color: #373737;
+    font-size: 16px;
+    position: relative;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 550;
+}
+#fakeHeader {
+    width: 644px;
+    height: 66px;
+}
+
+
+.vertical-line{
+    height: 35px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, .55);
+   
+}
+.footer{
+    margin-top: 65px;
+    padding: 30px;
+    background-color: #333333;
+    font-size: 13px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+   white-space: nowrap;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+text-decoration: underline;
+}
+#copyright{
+    margin-top: 20px;
+    color: #a9a9a9;
+    text-align: center;
+}
+.modal-body div{
+    margin-top: 15px;
+}
+.form-check{
+    margin-left: 5px;
+}
+.modal-body button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.modal-footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #f4f4f4;
+}
+#login-modal  a{
+    text-decoration: none;
+}
+.col-md{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.nav-name{
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+    
+    
+
+
+
